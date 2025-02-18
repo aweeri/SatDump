@@ -252,7 +252,7 @@
             "audio_wav": {
                 "noaa_apt_demod": {
                     "symbolrate": 50e3,
-                    "save_wav": false
+                    "save_wav": true
                 }
             },
             "products": {
