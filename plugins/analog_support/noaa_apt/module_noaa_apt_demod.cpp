@@ -56,7 +56,7 @@ namespace noaa_apt
 
         if (save_wav || output_data_type == DATA_FILE)
         {
-            data_out = std::ofstream(d_output_file_hint + ".wav", std::ios::binary);
+            data_out = std::ofstream(d_output_file_hint + "_" + "test" + ".wav", std::ios::binary);
             d_output_files.push_back(d_output_file_hint + ".wav");
         }
 
