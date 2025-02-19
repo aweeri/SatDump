@@ -139,13 +139,6 @@ namespace satdump
         {
             PipelineStep &step = steps[currentStep];
 
-            if (!foundLevel)
-            {
-                foundLevel = step.level_name == input_level;
-                logger->info("Data is already at level " + step.level_name + ", skipping");
-                continue;
-            }
-
             logger->info("Processing data to level " + step.level_name);
 
             std::vector<std::string> files;
